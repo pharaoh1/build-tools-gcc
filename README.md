@@ -56,7 +56,18 @@ Example commands:
 
 If you want to switch between GNU and Linaro builds, ALWAYS run update so that
 it checks out the proper branch.
+The printout will show you how to run the script.
 
+Example commands:
+
+# Build a Linaro 7.x toolchain for x86_64
+./build -a x86_64 -s linaro -v 7
+
+# Build a Linaro 7.x toolchain for arm64
+./build -a arm64 -s linaro -v 7
+
+# Build a GNU 5.x toolchain for arm
+./build -a arm -s gnu -v 5
 
 ## After compilation
 
